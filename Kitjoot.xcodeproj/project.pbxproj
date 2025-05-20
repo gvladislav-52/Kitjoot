@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2345B5252DDCB197003E4BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B5242DDCB197003E4BFC /* AppDelegate.swift */; };
+		2345B5272DDCB197003E4BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B5262DDCB197003E4BFC /* SceneDelegate.swift */; };
+		2345B5292DDCB197003E4BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B5282DDCB197003E4BFC /* ViewController.swift */; };
+		2345B52C2DDCB197003E4BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2345B52A2DDCB197003E4BFC /* Main.storyboard */; };
+		2345B52E2DDCB198003E4BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2345B52D2DDCB198003E4BFC /* Assets.xcassets */; };
+		2345B5312DDCB198003E4BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2345B52F2DDCB198003E4BFC /* LaunchScreen.storyboard */; };
+		2345B53C2DDCB198003E4BFC /* KitjootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B53B2DDCB198003E4BFC /* KitjootTests.swift */; };
+		2345B5462DDCB198003E4BFC /* KitjootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B5452DDCB198003E4BFC /* KitjootUITests.swift */; };
+		2345B5482DDCB198003E4BFC /* KitjootUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345B5472DDCB198003E4BFC /* KitjootUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2345B5382DDCB198003E4BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2345B5192DDCB197003E4BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2345B5202DDCB197003E4BFC;
+			remoteInfo = Kitjoot;
+		};
+		2345B5422DDCB198003E4BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2345B5192DDCB197003E4BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2345B5202DDCB197003E4BFC;
+			remoteInfo = Kitjoot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2345B5212DDCB197003E4BFC /* Kitjoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitjoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2345B5242DDCB197003E4BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2345B5262DDCB197003E4BFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2345B5282DDCB197003E4BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2345B52B2DDCB197003E4BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2345B52D2DDCB198003E4BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2345B5302DDCB198003E4BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2345B5322DDCB198003E4BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2345B5372DDCB198003E4BFC /* KitjootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitjootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2345B53B2DDCB198003E4BFC /* KitjootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitjootTests.swift; sourceTree = "<group>"; };
+		2345B5412DDCB198003E4BFC /* KitjootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitjootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2345B5452DDCB198003E4BFC /* KitjootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitjootUITests.swift; sourceTree = "<group>"; };
+		2345B5472DDCB198003E4BFC /* KitjootUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitjootUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2345B51E2DDCB197003E4BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B5342DDCB198003E4BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B53E2DDCB198003E4BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2345B5182DDCB197003E4BFC = {
+			isa = PBXGroup;
+			children = (
+				2345B5232DDCB197003E4BFC /* Kitjoot */,
+				2345B53A2DDCB198003E4BFC /* KitjootTests */,
+				2345B5442DDCB198003E4BFC /* KitjootUITests */,
+				2345B5222DDCB197003E4BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2345B5222DDCB197003E4BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2345B5212DDCB197003E4BFC /* Kitjoot.app */,
+				2345B5372DDCB198003E4BFC /* KitjootTests.xctest */,
+				2345B5412DDCB198003E4BFC /* KitjootUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2345B5232DDCB197003E4BFC /* Kitjoot */ = {
+			isa = PBXGroup;
+			children = (
+				2345B5242DDCB197003E4BFC /* AppDelegate.swift */,
+				2345B5262DDCB197003E4BFC /* SceneDelegate.swift */,
+				2345B5282DDCB197003E4BFC /* ViewController.swift */,
+				2345B52A2DDCB197003E4BFC /* Main.storyboard */,
+				2345B52D2DDCB198003E4BFC /* Assets.xcassets */,
+				2345B52F2DDCB198003E4BFC /* LaunchScreen.storyboard */,
+				2345B5322DDCB198003E4BFC /* Info.plist */,
+			);
+			path = Kitjoot;
+			sourceTree = "<group>";
+		};
+		2345B53A2DDCB198003E4BFC /* KitjootTests */ = {
+			isa = PBXGroup;
+			children = (
+				2345B53B2DDCB198003E4BFC /* KitjootTests.swift */,
+			);
+			path = KitjootTests;
+			sourceTree = "<group>";
+		};
+		2345B5442DDCB198003E4BFC /* KitjootUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2345B5452DDCB198003E4BFC /* KitjootUITests.swift */,
+				2345B5472DDCB198003E4BFC /* KitjootUITestsLaunchTests.swift */,
+			);
+			path = KitjootUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2345B5202DDCB197003E4BFC /* Kitjoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2345B54B2DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "Kitjoot" */;
+			buildPhases = (
+				2345B51D2DDCB197003E4BFC /* Sources */,
+				2345B51E2DDCB197003E4BFC /* Frameworks */,
+				2345B51F2DDCB197003E4BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitjoot;
+			productName = Kitjoot;
+			productReference = 2345B5212DDCB197003E4BFC /* Kitjoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2345B5362DDCB198003E4BFC /* KitjootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2345B54E2DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "KitjootTests" */;
+			buildPhases = (
+				2345B5332DDCB198003E4BFC /* Sources */,
+				2345B5342DDCB198003E4BFC /* Frameworks */,
+				2345B5352DDCB198003E4BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2345B5392DDCB198003E4BFC /* PBXTargetDependency */,
+			);
+			name = KitjootTests;
+			productName = KitjootTests;
+			productReference = 2345B5372DDCB198003E4BFC /* KitjootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2345B5402DDCB198003E4BFC /* KitjootUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2345B5512DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "KitjootUITests" */;
+			buildPhases = (
+				2345B53D2DDCB198003E4BFC /* Sources */,
+				2345B53E2DDCB198003E4BFC /* Frameworks */,
+				2345B53F2DDCB198003E4BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2345B5432DDCB198003E4BFC /* PBXTargetDependency */,
+			);
+			name = KitjootUITests;
+			productName = KitjootUITests;
+			productReference = 2345B5412DDCB198003E4BFC /* KitjootUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2345B5192DDCB197003E4BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2345B5202DDCB197003E4BFC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2345B5362DDCB198003E4BFC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2345B5202DDCB197003E4BFC;
+					};
+					2345B5402DDCB198003E4BFC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2345B5202DDCB197003E4BFC;
+					};
+				};
+			};
+			buildConfigurationList = 2345B51C2DDCB197003E4BFC /* Build configuration list for PBXProject "Kitjoot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2345B5182DDCB197003E4BFC;
+			productRefGroup = 2345B5222DDCB197003E4BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2345B5202DDCB197003E4BFC /* Kitjoot */,
+				2345B5362DDCB198003E4BFC /* KitjootTests */,
+				2345B5402DDCB198003E4BFC /* KitjootUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2345B51F2DDCB197003E4BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345B5312DDCB198003E4BFC /* LaunchScreen.storyboard in Resources */,
+				2345B52E2DDCB198003E4BFC /* Assets.xcassets in Resources */,
+				2345B52C2DDCB197003E4BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B5352DDCB198003E4BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B53F2DDCB198003E4BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2345B51D2DDCB197003E4BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345B5292DDCB197003E4BFC /* ViewController.swift in Sources */,
+				2345B5252DDCB197003E4BFC /* AppDelegate.swift in Sources */,
+				2345B5272DDCB197003E4BFC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B5332DDCB198003E4BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345B53C2DDCB198003E4BFC /* KitjootTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2345B53D2DDCB198003E4BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345B5462DDCB198003E4BFC /* KitjootUITests.swift in Sources */,
+				2345B5482DDCB198003E4BFC /* KitjootUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2345B5392DDCB198003E4BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2345B5202DDCB197003E4BFC /* Kitjoot */;
+			targetProxy = 2345B5382DDCB198003E4BFC /* PBXContainerItemProxy */;
+		};
+		2345B5432DDCB198003E4BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2345B5202DDCB197003E4BFC /* Kitjoot */;
+			targetProxy = 2345B5422DDCB198003E4BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2345B52A2DDCB197003E4BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2345B52B2DDCB197003E4BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2345B52F2DDCB198003E4BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2345B5302DDCB198003E4BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2345B5492DDCB198003E4BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2345B54A2DDCB198003E4BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2345B54C2DDCB198003E4BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kitjoot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.Kitjoot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2345B54D2DDCB198003E4BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kitjoot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.Kitjoot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2345B54F2DDCB198003E4BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.KitjootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitjoot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitjoot";
+			};
+			name = Debug;
+		};
+		2345B5502DDCB198003E4BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.KitjootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitjoot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitjoot";
+			};
+			name = Release;
+		};
+		2345B5522DDCB198003E4BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.KitjootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kitjoot;
+			};
+			name = Debug;
+		};
+		2345B5532DDCB198003E4BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.KitjootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kitjoot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2345B51C2DDCB197003E4BFC /* Build configuration list for PBXProject "Kitjoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2345B5492DDCB198003E4BFC /* Debug */,
+				2345B54A2DDCB198003E4BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2345B54B2DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "Kitjoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2345B54C2DDCB198003E4BFC /* Debug */,
+				2345B54D2DDCB198003E4BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2345B54E2DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "KitjootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2345B54F2DDCB198003E4BFC /* Debug */,
+				2345B5502DDCB198003E4BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2345B5512DDCB198003E4BFC /* Build configuration list for PBXNativeTarget "KitjootUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2345B5522DDCB198003E4BFC /* Debug */,
+				2345B5532DDCB198003E4BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2345B5192DDCB197003E4BFC /* Project object */;
+}
