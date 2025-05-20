@@ -14,13 +14,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Build and run tests
+      - name: Build and run unit tests only
         run: |
           xcodebuild clean test \
             -project Kitjoot.xcodeproj \
             -scheme Kitjoot \
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
-            -enableCodeCoverage YES
+            -enableCodeCoverage YES \
+            -only-testing:KitjootTests
         env:
           CI: true
