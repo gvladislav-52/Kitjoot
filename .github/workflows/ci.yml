@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Build and run unit tests only
+      - name: Build and run unit tests only (skip code signing)
         run: |
           xcodebuild clean test \
             -project Kitjoot.xcodeproj \
@@ -22,6 +22,7 @@ jobs:
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
             -enableCodeCoverage YES \
-            -only-testing:KitjootTests
+            -only-testing:KitjootTests \
+            CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
         env:
           CI: true
